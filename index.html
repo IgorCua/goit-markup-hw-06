@@ -76,29 +76,30 @@
             </button>
             <h2>Leave your information and we'll call you back</h2>
             <form class="modal-form">
+              
+              <label for="modal-input-name">Name</label>
               <div class="modal-form-container">
-                <label for="modal-input-name">Name</label>
-                <input type="text" id="modal-input-name">
+                <input type="text" id="modal-input-name" name="user-name">
               </div>
 
+              <label for="modal-input-tel">Telephone</label>
               <div class="modal-form-container">
-                <label for="modal-input-tel">Telephone</label>
-                <input type="tel" id="modal-input-tel">
+                <input type="tel" id="modal-input-tel" name="user-number">
               </div>
 
+              <label for="modal-input-mail">E-mail</label>
               <div class="modal-form-container">
-                <label for="modal-input-mail">E-mail</label>
-                <input type="mail" id="modal-input-mail">
+                <input type="mail" id="modal-input-mail" name="user-mail">
               </div>
 
               <label for="modal-input-comments">Comments</label>
               <textarea id="modal-input-comments" placeholder="Enter the text"></textarea>
 
-              <label for="modal-input-checkbox"></label>
-              <input type="checkbox">
+              <label for="modal-checkbox">
                 I agree with the newsletter and accept the Terms and Conditions
-              </input>
-
+              </label>
+              <input type="checkbox" id="modal-checkbox">
+              
               <button type="submit">Submit</button>
             </form>
           </div>
