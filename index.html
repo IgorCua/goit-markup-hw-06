@@ -68,15 +68,32 @@
           Request our service
         </button>
         <div class="modal-backdrop" data-modal>
-          <!-- <div class="modal-container"> -->
-            <div class="modal-window">
-              <button type="button" class="modal-button" data-modal-close>
-                <svg>
-                  <use href="./images/icons.svg#icon-exit"></use>
-                </svg>
-              </button>
-            </div>
-          <!-- </div> -->
+          <div class="modal-window">
+            <button type="button" class="modal-button" data-modal-close>
+              <svg>
+                <use href="./images/icons.svg#icon-exit"></use>
+              </svg>
+            </button>
+            <h2>Leave your information and we'll call you back</h2>
+            <form class="modal-form">
+              <label for="modal-input-name">Name</label>
+              <input type="text" id="modal-input-name">
+
+              <label for="modal-input-tel">Telephone</label>
+              <input type="tel" id="modal-input-tel">
+
+              <label for="modal-input-mail">E-mail</label>
+              <input type="mail" id="modal-input-mail">
+
+              <label for="modal-input-comments">Comments</label>
+              <textarea id="modal-input-comments" placeholder="Enter the text"></textarea>
+
+              <label for="modal-input-checkbox"></label>
+              <input type="checkbox" placeholder="Enter the text">
+
+              <button type="submit">Submit</button>
+            </form>
+          </div>
         </div>
       </section>
 
