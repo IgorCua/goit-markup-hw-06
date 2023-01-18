@@ -3,6 +3,7 @@
     --primary-header-color: #212121;
     --secondary-text-color: #FFFFFF;
     --accent-color: #2196F3;
+    --accent-color-2: #188CE8;
     --background-color-1: #ECECEC;
     --background-color-2: #2F303A;
     --background-color-3: #F5F4FA;
@@ -481,18 +482,7 @@ img{
     
     border-radius: 4px;
 }
-.modal-window h2{
-    width: 448px;
-    text-align: center;
 
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 23px;
-    text-align: center;
-    letter-spacing: 0.03em;
-
-}
 .modal-button{
     position: absolute;
     right: 8px;
@@ -525,10 +515,55 @@ img{
     height: 11px;
 }
 
+.modal-window h2{
+    width: 448px;
+    margin: 0;
+    padding: 0;
+    margin-top: 44px;
+    margin-bottom: 12px;    
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+}
 .modal-form{
     width: 448px;
     display: flex;
     flex-direction: column;
+
+
+}
+
+.modal-form input{
+    height: 44px;
+}
+.modal-form input:not(:last-of-type){
+    padding-left: 42px;
+    margin-bottom: 10px;
+}
+.modal-form label{
+    margin-bottom: 4px;
+}
+
+.modal-form textarea{
+    padding: 12px 16px;
+    height: 120px;
+}
+
+.modal-form button{
+    width: 200px;
+    height: 50px;
+    
+    background: var(--accent-color-2);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    color: var(--secondary-text-color);
+    
+    border-radius: 4px;
+    border: 0px;
 }
     /*------------ features ----------*/
 .main-features-header{
