@@ -121,7 +121,7 @@ img{
 
     color: var(--primary-text-color);
 
-    transition-property: background-color, color;
+    transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: var(--tra);
 
@@ -147,10 +147,6 @@ img{
     
 }
 
-.social-accounts svg:hover,
-.social-accounts svg:hover{
-    fill: var(--secondary-text-color);
-}
 /*===================== header ====================*/
 .header{
     border-bottom: 1px solid var(--background-color-1);
@@ -695,7 +691,7 @@ img{
     position: absolute;
     left: 0px;
     top: 0px;
-    border-radius: 3px;
+    border-radius: 1px;
     overflow: hidden;
 }
 
@@ -855,7 +851,6 @@ img{
     display: flex;
 
     text-align: center;
-    
 }
 
 .main-our-team-list > li{
