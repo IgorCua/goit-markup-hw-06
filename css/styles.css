@@ -631,25 +631,26 @@ img{
     padding-left: 42px;
     box-sizing: border-box;
     
-    border: 1px solid rgba(33, 33, 33, 0.2);
+    border: 3px solid rgba(33, 33, 33, 0.2);
 
-    /* transition-property: border, fill, filter;
-    transition-delay: 250ms;
-    transition-timing-function: var(--tra); */
+    transition-property: border, fill;
+    transition-delay: 950ms;
+    transition-timing-function: var(--tra);
 }
 
 .modal-form-container input:hover,
 .modal-form-container input:focus,
 .modal-form textarea:hover,
 .modal-form textarea:focus{
-    border: var(--accent-color) 1px solid;
-    fill: var(--accent-color);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    /* border: var(--accent-color) 1px solid; */
+    border-color: var(--accent-color);
+    /* fill: var(--accent-color); */
+    /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
 }
 
-.modal-form-container input:hover + svg{
+/* .modal-form-container input:hover + svg{
     fill: var(--accent-color);
-}
+} */
 
 
 .modal-form label:nth-child(-2){
