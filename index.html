@@ -95,7 +95,7 @@
 
               <label for="modal-input-mail" class="modal-label">E-mail</label>
               <div class="modal-form-container">
-                <input type="mail" id="modal-input-mail" name="user-mail">
+                <input type="email" id="modal-input-mail" name="user-mail">
                 <svg>
                   <use href="./images/icons.svg#icon-form-mail"></use>
                 </svg>
@@ -489,9 +489,15 @@
           </ul>
         </div>
         <div class="footer-form">
+          <h2>Subscribe to the newsletter</h2>
           <form class="footer-subscribe">
-            <label for=""></label>
-            <input type="email" name="email">
+            <input id="footer-subscribe-email" type="email" name="email">
+            <button type="submit" class="footer-form-button">
+              <span>Suscribe</span>
+              <svg>
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
