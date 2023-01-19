@@ -627,7 +627,7 @@ img{
     padding-left: 42px;
     box-sizing: border-box;
     
-    border: 3px solid rgba(33, 33, 33, 0.2);
+    border: 1px solid rgba(33, 33, 33, 0.2);
 
     transition-property: border, fill;
     transition-delay: 950ms;
@@ -691,7 +691,7 @@ img{
     position: absolute;
     left: 0px;
     top: 0px;
-    border-radius: 1px;
+    border-radius: 2px;
     overflow: hidden;
 }
 
