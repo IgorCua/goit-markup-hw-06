@@ -667,6 +667,14 @@ img{
     transition-timing-function: var(--tra);
 }
 
+.modal-form-container input:valid{
+    border-color: green;
+}
+
+.modal-form-container input:invalid{
+    border-color: red;
+}
+
 .modal-form input:not([type="checkbox"]){
     height: 40px;
     width: 100%;
