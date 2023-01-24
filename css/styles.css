@@ -221,6 +221,11 @@ img{
 .header .current{
     color: var(--accent-color);
 }
+
+.nav__link--current{
+    color: var(--accent-color);
+}
+
 .nav__link--current::after{
     color: var(--accent-color);
     content: '';
@@ -330,11 +335,14 @@ img{
     margin-bottom: 9px;
 }
 
+.footer__accounts-box{
+    margin-right: 93px;
+}
+
 /* social accounts */
 .footer__social-accounts{
     padding: 0;
     margin: 0;
-    margin-right: 93px;
     list-style: none;
     display: flex;
     gap: 10px;
@@ -388,22 +396,24 @@ img{
     width: 358px;
     height: 50px;
 
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: calc(20 / 16);
-    /* identical to box height, or 125% */
-
-    letter-spacing: 0.03em;
-
-    /* color: rgba(255, 255, 255, 0.6); */
-
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
 
     transition-property: border-color;
     transition-duration: 250ms;
     transition-timing-function: var(--tra);
+}
+
+.form-subscribe__input::placeholder{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(20 / 16);
+
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+
 }
 
 .form-subscribe__input:hover{
@@ -775,10 +785,11 @@ img{
     margin-bottom: 30px;
     position: relative;
     display: inline-block;
-    width: 423px;
     left: 50%;
     transform: translateX(-50%);
     padding-left: 23px;
+    display: flex;
+    justify-content: center;
 }
 
 .checkbox__span{
@@ -787,6 +798,7 @@ img{
 
 .checkbox_link{
     color: var(--accent-color);
+    margin-left: 3px;
 }
 
 .checkbox__input{
